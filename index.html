@@ -6,6 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <input id = "input" type="text">
+
+    <div>
+        <input type = button name="C" value="C" onclick="clearInput()">
+        <input type = button name="m" value="+/-" onclick="changeSign()">
+        <input type = button name="%" value="%" onclick="writeNumber(this.value)">
+        <input type = button name="/" value="/" onclick="writeNumber(this.value)">
+    </div>
+    <div>
+        <input type = button name="7" value="7" onclick="writeNumber(this.value)">
+        <input type = button name="8" value="8" onclick="writeNumber(this.value)">
+        <input type = button name="9" value="9" onclick="writeNumber(this.value)">
+        <input type = button name="*" value="*" onclick="writeNumber(this.value)">
+    </div>
+    <div>
+        <input type = button name="4" value="4" onclick="writeNumber(this.value)">
+        <input type = button name="5" value="5" onclick="writeNumber(this.value)">
+        <input type = button name="6" value="6" onclick="writeNumber(this.value)">
+        <input type = button name="-" value="-" onclick="writeNumber(this.value)">
+    </div>
+    <div>
+        <input type = button name="1" value="1" onclick="writeNumber(this.value)">
+        <input type = button name="2" value="2" onclick="writeNumber(this.value)">
+        <input type = button name="3" value="3" onclick="writeNumber(this.value)">
+        <input type = button name="+" value="+" onclick="writeNumber(this.value)">
+    </div>
+    <div>
+        <input type = button name="0" value="0" onclick="writeNumber(this.value)">
+        <input type = button name="," value="," onclick="writeNumber(this.value)">
+        <input type = button name="=" value="=" onclick="writeNumber(this.value)">
+    </div>
+
+    <script src="ClassCalculator.js"></script>
+
 </body>
 </html>
